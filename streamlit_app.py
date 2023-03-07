@@ -52,5 +52,4 @@ my_data_row = my_cur.fetchone()
 streamlit.text("The Fruit load list contains: ")
 streamlit.text(my_data_row)
 
-select * from pc_rivery_db.public.fruit_load_list
- 
+
