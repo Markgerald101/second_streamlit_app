@@ -60,7 +60,7 @@ except URLError as e:
 # write your own comment - what does this do?
 
 
-streamlit.stop()
+
 # import snowflake.connector
 
 my_cur = my_cnx.cursor()
@@ -81,4 +81,4 @@ if streamlit.button('Add a Fruit to the List'):
      streamlit.text(back_from_function)
 streamlit.write()
 
-
+streamlit.stop()
